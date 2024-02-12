@@ -3,13 +3,17 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-// NOTE: This game is an exercise in showcasing my code knowledge thus far as I learn C#.
+/* NOTE: This game is an exercise in showcasing my code knowledge thus far as I learn C#.
+Nature Fight - A text-based Role-Playing Game
+
+Nature Fight is a fast-paced, turn-based game where the longer you think on your next move, the more your opponent will attack.
+There is also a 'training' mini-game that tests the player's reaction time. */
 
 // TODO:
 // Find a way to block input from players during story moments - inputs end up stacking and play out once sequences that take player input resume.
 // ^-- Pressing Enter before such sequences works as a temporary fix but disrupts the flow of the experience at certain points.
 // Develop the stats more - strength and defense are unused stats - and subsequently more mini-games to 'train' them.
-// Level up system is also unused
+// Level up system is also unused.
 
 
 namespace FirstProject
